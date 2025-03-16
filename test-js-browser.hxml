@@ -1,6 +1,7 @@
 test-each.hxml
 -D client
 -lib pushstate
+-lib mockatoo:git:https://github.com/FunkinCrew/mockatoo#13d77a0a8eaf5e789ef5dae6cd33eee812deda36
 # -lib detox
 -js build/js_client_test.js
 -xml doc/js_browser.xml

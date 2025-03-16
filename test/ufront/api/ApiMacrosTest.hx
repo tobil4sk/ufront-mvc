@@ -6,9 +6,11 @@ import utest.Assert;
 import haxe.rtti.Meta;
 import haxe.EnumFlags;
 import haxe.macro.MacroType;
-import mockatoo.Mockatoo.*;
 using tink.CoreApi;
+#if client
+import mockatoo.Mockatoo.*;
 using mockatoo.Mockatoo;
+#end
 
 class ApiMacrosTest {
 	public function new() {}

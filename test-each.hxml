@@ -10,7 +10,6 @@
 -lib minject
 -lib tink_core
 -lib tink_macro
--lib mockatoo:git:https://github.com/FunkinCrew/mockatoo#13d77a0a8eaf5e789ef5dae6cd33eee812deda36
 -cp src
 
 # Things need for tests
