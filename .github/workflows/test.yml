@@ -23,11 +23,7 @@ jobs:
           haxe-version: ${{ matrix.haxe-version }}
 
       - run: |
-          curl -sL https://github.com/massive-oss/mconsole/archive/refs/tags/1.6.1.zip -o mconsole-1.6.1.zip
-          haxelib install mconsole-1.6.1.zip
-          haxelib install hscript --quiet
-
-          haxelib install all --quiet --always --skip-dependencies
+          haxelib install all --quiet --always
           haxelib install minject 2.0.0-rc.1 && haxelib set minject 2.0.0-rc.1
 
           haxelib list
